@@ -107,3 +107,110 @@ body{
 .send:hover a{
 	color: #fff;
 }
+.about{
+	clear: left;
+}
+h1{
+	text-align: center;
+	padding-top: 50px;
+}
+.her{	
+	float: left;
+	position: relative;
+	width: 40px;
+	border: 1px solid #07cbc9;
+	left: 50%;
+	margin-left: -20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.lorem{
+	clear: left;
+	text-align: center;
+	display: block;
+	position: relative;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+}
+.word{
+	float: left;
+	width: 350px;
+	height: 350px;
+	position: relative;
+	left: 150px;
+}
+.about img{
+	float: left;
+	width: 580px;
+}
+.word span{
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.word p{
+	position: absolute;
+	margin: 20px;
+	width:300px; 
+}
+.wordbg{
+	float: left;
+	width: 320px;
+	height: 230px;
+	background-color: #fff;
+	opacity: 0.5;
+	border: 1px solid #a1a1a1;
+}
+.exp{
+	position: absolute;
+	width: 80px;
+	height: 20px;
+	background-color: #000;
+	text-align: center;
+	top:220px;
+	left: 20px;
+	padding: 10px;
+}
+.exp a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+.exp:hover{
+	background-color: #07cbc9;
+}
+.students{
+	position: relative;
+	left: 50px;
+	text-align: center;
+	float: left;
+	width: 240px;
+	height: 145px;
+	border: 1px solid #07cbc9;
+}
+.faculty{
+	position: relative;
+	top: 50px;
+	left: 50px;
+	text-align: center;
+	float: left;
+	width: 240px;
+	height: 145px;
+	border: 1px solid #07cbc9;
+}
+.hera{
+	position: relative;
+	width: 40px;
+	border: 1px solid #07cbc9;
+	left: 50%;
+	margin-left: -20px;
+	top: 40px;
+}
+.students h2,.faculty h2{
+	position: relative;
+	top: 20px;
+}
+.students h5,.faculty h5{
+	position: relative;
+	top: 50px;
+}
