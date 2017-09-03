@@ -1,6 +1,8 @@
 *{
 	margin:0;
 	padding:0;
+	outline: none;
+	font-family: "微软雅黑";
 }
 body{
 	min-width:1000px;
@@ -18,6 +20,7 @@ body{
 }
 .header ul{
 	float:right;
+	margin-right: 100px;
 }
 .header ul li{
 	float:left;
@@ -31,7 +34,76 @@ body{
 .header ul li a{
 	font-size: 15px;
 	color:#fff;
-	text-decoration: none;
-	text-transform: uppercase;
+	text-decoration: none; /*去除默认样式*/
+	text-transform: uppercase;/*字母全大写*/
 	font-weight: bold;
+}
+.banner img{
+	width: 100%;
+	height: 500px;
+	float:left;
+}
+.coating{
+	width: 100%;
+	height: 500px;
+	float: left;
+	position: absolute;
+	background-color: #000;
+	opacity: 0.5;
+}
+.your{
+	position: absolute;
+	left: 50%;
+	top: 150px;
+	margin-left: -240px;
+}
+.your input{
+	height: 40px;
+	width:480px;
+	padding-left:15px;
+	margin-bottom:20px;
+	border: 2px solid #a1a1a1;
+	background-color: transparent;
+}
+.your input:hover{
+	border: 2px solid #07cbc9;
+}
+.your textarea{
+	padding-left: 15px;
+	padding-top: 10px;
+	font-size: 13px;
+	width: 480px;
+	max-width: 480px;
+	height: 100px;
+	max-height: 150px;
+	background-color: transparent;
+	border: 2px solid #a1a1a1;
+	margin-bottom:20px;
+}
+.your textarea:hover{
+	border: 2px solid #07cbc9;
+}
+.send{
+	position: relative;
+	height: 40px;
+	width: 180px;
+	background-color: transparent;
+	border: 2px solid #a1a1a1;
+	left: 50%;
+	margin-left: -90px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.send a{
+	position: relative;
+	text-decoration: none;
+	color: #a1a1a1;
+	top: 9px;
+}
+.send:hover{
+	border: 2px solid #07cbc9;
+	background-color: #07cbc9;
+}
+.send:hover a{
+	color: #fff;
 }
