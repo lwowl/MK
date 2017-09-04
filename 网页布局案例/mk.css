@@ -5,7 +5,7 @@
 	font-family: "微软雅黑";
 }
 body{
-	min-width:1000px;
+	min-width:1200px;
 }
 .header{
 	background-color:#07cbc9;
@@ -40,6 +40,7 @@ body{
 }
 .banner img{
 	width: 100%;
+	min-width: 1160px;
 	height: 500px;
 	float:left;
 }
@@ -133,16 +134,26 @@ h1{
 	left: 50%;
 	margin-left: -300px;
 }
-.word{
-	float: left;
-	width: 350px;
-	height: 350px;
+.pd{
 	position: relative;
-	left: 150px;
+	width: 1124px;
+	height: 400px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
 }
+
 .about img{
 	float: left;
 	width: 580px;
+	position: relative;
+}
+.word{
+	float: left;
+	width: 250px;
+	height: 350px;
+	position: relative;
+	z-index: 2;
 }
 .word span{
 	text-transform: uppercase;
