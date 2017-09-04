@@ -174,16 +174,16 @@ h1{
 }
 .exp{
 	position: absolute;
-	width: 80px;
-	height: 20px;
+	width: 120px;
+	height: 50px;
 	border: 2px solid #000;
 	background-color: #000;
 	text-align: center;
 	top:220px;
 	left: 20px;
-	padding: 10px;
 }
 .exp a{
+	line-height: 50px;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #fff;
@@ -230,4 +230,82 @@ h1{
 .students h5,.faculty h5{
 	position: relative;
 	top: 50px;
+}
+.lib{
+	clear: both;
+	width: 100%;
+	height: 800px;
+	background-color: #1a1a1a;
+}
+.lib img{
+	width:25%;
+	height: 400px;
+}
+.arrow-left{ /*左三角*/
+    width:auto; 
+    height:auto; 
+    border-top:20px solid transparent;
+    border-bottom:20px solid transparent; 
+    border-right:20px solid #07cbc9;
+    float: left;
+    position: relative;
+    margin-left: -20px;
+    top:180px;
+}	
+.library{
+	float: left;
+	width:25%;
+	height: 400px;
+	background-color: #07cbc9;
+}
+.arrow-right{
+	float: left;
+	position: relative;
+    width:auto; 
+    height:auto; 
+    border-top:20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #07cbc9;
+    top: 180px;
+    margin-left: -20px;
+    left: 20px;
+    z-index: 2;
+}
+.lor{
+	padding: 50px;
+}
+.library h5{
+	font-size: 40px;
+	color: #fff;
+}
+.library span{
+	color: #fff;
+	line-height: 30px;
+}
+.library p{
+	padding-top: 10px;
+	color: #a1a1a1;
+}
+.butn{
+	text-align: center;
+	width: 120px;
+	height: 50px;
+	background-color: #000;
+	position: relative;
+	left: 50%;
+	margin-left: -61px;
+	border: 2px solid #000;
+}
+.butn a{
+	text-transform: uppercase;
+	text-decoration:none;
+	color: #fff;
+	position: relative;
+	line-height: 50px;
+}
+.butn:hover{
+	background-color: #fff;
+}
+.butn:hover a{
+	color: #000;
 }
