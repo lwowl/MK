@@ -234,6 +234,7 @@ h1{
 .lib{
 	clear: both;
 	width: 100%;
+	min-width: 1560px;
 	height: 800px;
 	background-color: #1a1a1a;
 }
@@ -284,7 +285,7 @@ h1{
 }
 .library p{
 	padding-top: 10px;
-	color: #a1a1a1;
+	color: #d5d5d5;
 }
 .butn{
 	text-align: center;
@@ -308,4 +309,15 @@ h1{
 }
 .butn:hover a{
 	color: #000;
+}
+.room{
+	width:1200px;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.zi{
+	float:left;
+	padding:20px;
 }
